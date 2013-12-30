@@ -1,0 +1,20 @@
+<Alloy>
+	<Window id="menu">
+		<Module id="blur" module="com.kosso.TiKBlurLive" method="createView" platform="ios">
+			<ScrollView id="scrollView">
+				<View class="subMenu">
+					<Button id="button1" class="circleMenu" borderColor="#f6a63d" image="/images/769-male-selected.png" onClick="toggleMenu"/>
+				</View>	
+				<View class="subMenu">
+					<Button id="button2" class="circleMenu" borderColor="#b72713" image="/images/740-gear-selected.png" onClick="toggleMenu"/>
+				</View>	
+				<View class="subMenu">
+					<Button id="button3" class="circleMenu" borderColor="#c4bfb8" image="/images/715-globe-selected.png" onClick="toggleMenu"/>
+				</View>	
+				<View class="subMenu">
+					<Button id="button4" class="circleMenu" borderColor="#f5f0e8" image="/images/726-star-selected.png" onClick="toggleMenu"/>
+				</View>	
+		</ScrollView>
+		</Module>
+	</Window>
+</Alloy>

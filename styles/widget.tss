@@ -1,0 +1,42 @@
+"#menu": {
+	top: "0dp",
+	bottom: "0dp",
+	left: "-151dp",
+	width: "150dp",
+	isShowing: false,
+	zIndex: 100
+},
+"#blur": {
+	translucentAlpha: 0.98,
+	defaultTranslucentStyle: false,
+	translucentTintColor: "rgba(0, 0, 0, 0)",
+	backgroundColor: "rgba(0, 0, 0, 0)", 
+	top : "0dp",
+	bottom: "0dp",
+	left: "0dp",
+	width: "120dp",
+},
+"ScrollView": {
+	left: "0dp",
+	right: "0dp",
+	top: "20dp",
+	bottom: "0dp",
+	layout: "vertical"
+},
+".subMenu": {
+	left: "0dp",
+	right: "0dp",
+	height: Alloy.Globals.subMenuHeight,
+	top: "0dp"
+},
+".circleMenu": {
+	height: Alloy.Globals.circleSize,
+	width: Alloy.Globals.circleSize,
+	borderRadius: Alloy.Globals.circleRadius,
+	borderColor: "#FFFFFF",
+	borderWidth: "1.5dp",
+	backgroundColor: "rgba(0, 0, 0, 0)",
+	//backgroundColor: "rgba(195, 195, 195, 0.4)",
+	//backgroundSelectedColor: "rgba(195, 195, 195, 0.6)",
+	tintColor: "#FFFFFF"
+}
