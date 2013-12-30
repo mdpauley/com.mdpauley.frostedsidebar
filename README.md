@@ -1,4 +1,4 @@
-# Button widget
+# Frosted Sidebar widget
 This widget for the [Appcelerator](http://www.appcelerator.com) Titanium Alloy MVC framework provides a view using [kosso / TiTranslucentView](https://github.com/kosso/TiTranslucentView) that mimics [rnystrom / RNFrostedSidebar](https://github.com/rnystrom/RNFrostedSidebar).
 
 ## Quick start
@@ -19,6 +19,7 @@ How to use this widget in your own project?
 
 ```xml
 <Widget id="menu" src="com.mdpauley.frostedsidebar" />`
+```
 
 ## Todo
 * Include icons to view (Not sure of Glyphish license for paid version)
